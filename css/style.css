@@ -280,10 +280,10 @@ body {
     font-size: 0.8em;
   }
   .inputBall {
-    width: 30vh;
+    width: 20vh;
   }
   .btn {
-    left: 115%;
+    left: 100%;
     top: 1vh;
     font-size: 0.9em;
     padding: 0.4em;
