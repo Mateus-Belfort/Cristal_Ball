@@ -211,7 +211,7 @@ body {
 @media (max-width: 550px) {
   .cristalImg {
     width: 450px;
-    top: 10vh;
+    top: 15vh;
   }
 
   .ball-content {
@@ -219,7 +219,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    top: 15vh;
+    top: 5vh;
   }
 
   .text-center {
@@ -237,14 +237,12 @@ body {
 @media (max-width: 425px) {
   .cristalImg {
     width: 380px;
-    top: 10vh;
   }
 
   .text-center {
     font-size: 1.9em;
   }
   .inputBall {
-    left: 20px;
     width: 21vh;
     padding: 1vh;
     border-radius: 5px;
@@ -254,7 +252,7 @@ body {
     padding: 0.5em;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .cristalImg {
     width: 300px;
     top: 20vh;
