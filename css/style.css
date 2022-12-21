@@ -204,36 +204,16 @@ body {
   box-shadow: 0 0 10px 1px #00bfff inset, 0 0 10px 1px #00bfff;
 }
 
-@media (max-width: 1280px) {
-  .cristalImg {
-    width: 35%;
-    height: auto;
-    top: 2vh;
-  }
-  .ball-content {
-    top: 10vh;
-  }
-  .text-center {
-    font-size: 2.8em;
-  }
-  .text-content {
-    font-size: 1em;
-  }
-  .inputBall {
-    width: 35vh;
-    padding: 1.5vh;
-    border-radius: 5px;
-  }
-  .btn {
-    left: 95%;
-  }
-}
 @media (max-width: 550px) {
   .cristalImg {
     width: 450px;
     top: 10vh;
   }
   .ball-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     top: 15vh;
   }
   .text-center {
@@ -263,30 +243,6 @@ body {
   .btn {
     left: 95%;
     padding: 0.5em;
-  }
-}
-@media (max-width: 375px) {
-  .cristalImg {
-    width: 300px;
-    top: 10vh;
-  }
-  .ball-content {
-    top: 15vh;
-  }
-  .text-center {
-    font-size: 1.6em;
-  }
-  .text-content {
-    font-size: 0.8em;
-  }
-  .inputBall {
-    width: 22vh;
-  }
-  .btn {
-    left: 85%;
-    top: 1vh;
-    font-size: 0.9em;
-    padding: 0.4em;
   }
 }
 
