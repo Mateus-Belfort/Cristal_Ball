@@ -239,7 +239,7 @@ body {
 }
 @media (max-width: 360px) {
   .ball-content {
-    top: 46vh;
+    top: 32vh;
   }
   .text-title {
     font-size: 2em;
@@ -249,7 +249,7 @@ body {
     font-size: 0.8em;
   }
   .inputBall {
-    top: -46vh;
+    top: -32vh;
     padding: 0.5em;
   }
   .button {
