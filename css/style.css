@@ -87,15 +87,45 @@ body {
   box-shadow: 0 0 10px 1px #00bfff inset, 0 0 10px 1px #00bfff;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1280px) {
+  body {
+    height: 150vh;
+  }
+  .cristalImg {
+    max-width: 750px;
+    width: 95%;
+  }
   .ball-content {
-    top: 15vh;
+    top: -10vh;
   }
   .inputBall {
-    top: -15vh;
+    top: 10vh;
   }
 }
-@media (max-width: 731px) {
+@media (max-width: 1024px) {
+  body {
+    height: 200vh;
+  }
+  .cristalImg {
+    max-width: 750px;
+    width: 95%;
+  }
+  .ball-content {
+    top: -47vh;
+  }
+  .inputBall {
+    top: 47vh;
+  }
+}
+@media (max-width: 912px) {
+  .ball-content {
+    top: 35vh;
+  }
+  .inputBall {
+    top: -35vh;
+  }
+}
+@media (max-width: 768px) {
   .ball-content {
     top: 20vh;
   }
@@ -133,26 +163,27 @@ body {
     top: -34vh;
   }
 }
-@media (max-width: 569px) {
+@media (max-width: 540px) {
   .ball-content {
-    top: 38vh;
+    top: 20vh;
   }
   .text-title {
     font-size: 2.5em;
   }
   .text-content {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .inputBall {
-    top: -38vh;
+    top: -20vh;
   }
   .button {
-    padding: 0.1em;
+    margin-top: 3vh;
+    padding: 0.2em;
   }
 }
 @media (max-width: 425px) {
   .ball-content {
-    top: 53vh;
+    top: 15vh;
   }
   .text-title {
     font-size: 2em;
@@ -162,15 +193,15 @@ body {
     font-size: 1em;
   }
   .inputBall {
-    top: -53vh;
+    top: -15vh;
   }
   .button {
     padding: 0.1em;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .ball-content {
-    top: 58vh;
+    top: 50vh;
   }
   .text-title {
     font-size: 2em;
@@ -180,7 +211,45 @@ body {
     font-size: 0.8em;
   }
   .inputBall {
-    top: -58vh;
+    top: -50vh;
+    padding: 0.5em;
+  }
+  .button {
+    padding: 0.1em;
+  }
+}
+@media (max-width: 375px) {
+  .ball-content {
+    top: 40vh;
+  }
+  .text-title {
+    font-size: 2em;
+  }
+  .text-content {
+    max-width: 230px;
+    font-size: 0.8em;
+  }
+  .inputBall {
+    top: -40vh;
+    padding: 0.5em;
+  }
+  .button {
+    padding: 0.1em;
+  }
+}
+@media (max-width: 360px) {
+  .ball-content {
+    top: 46vh;
+  }
+  .text-title {
+    font-size: 2em;
+  }
+  .text-content {
+    max-width: 230px;
+    font-size: 0.8em;
+  }
+  .inputBall {
+    top: -46vh;
     padding: 0.5em;
   }
   .button {
@@ -189,7 +258,7 @@ body {
 }
 @media (max-width: 320px) {
   .ball-content {
-    top: 65vh;
+    top: 35vh;
   }
   .text-title {
     font-size: 2em;
@@ -199,11 +268,31 @@ body {
     font-size: 0.7em;
   }
   .inputBall {
-    top: -65vh;
+    top: -35vh;
     padding: 0.5em;
   }
   .button {
     padding: 0.1em;
+  }
+}
+@media (max-width: 280px) {
+  .ball-content {
+    top: 55vh;
+  }
+  .text-title {
+    font-size: 1.2em;
+  }
+  .text-content {
+    max-width: 230px;
+    font-size: 0.7em;
+  }
+  .inputBall {
+    top: -55vh;
+    padding: 0.4em;
+  }
+  .button {
+    padding: 0.1em;
+    font-size: 0.7em;
   }
 }
 
