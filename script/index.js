@@ -27,9 +27,9 @@ function getAnswers() {
   if ((randominteger >= 49) && (randominteger <= 51)) answer = "Você acha que vou responder isso depois de um dia de trabalho duro? Pergunte novamente mais tarde."
   if ((randominteger >= 52) && (randominteger <= 54)) answer = "Se você tiver um animal de estimação, sim. Caso contrário, não."
   if ((randominteger >= 55) && (randominteger <= 57)) answer = "O sol nascerá no leste e se porá no oeste. Obrigado Capitão Óbvio. SIM!"
-  if ((randominteger >= 58) && (randominteger <= 60)) answer = "Estou rindo muito, muito mesmo. É melhor você perguntar novamente."
+  if ((randominteger >= 58) && (randominteger <= 60)) answer = "Estou rindo muito 😂, muito mesmo. É melhor você perguntar novamente."
 
-  var newWindow = window.open("", "Results", "width=300,height=300")
+  var newWindow = window.open("", "Results", "width=350,height=350")
   newWindow.document.write("<html><body bgcolor='#000000' text='#FFFFCC' link='#00FFFF' alink='#000066' vlink='#6666FF'>")
   newWindow.document.write("<P align='center'>Sua pergunta:</P><P></P>")
   newWindow.document.write("<P align='center'>" + document.input1.textfield.value + "</P>")
