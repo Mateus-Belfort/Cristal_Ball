@@ -12,71 +12,57 @@ body {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-}
-
-.ball {
-  display: flex;
-  align-items: center;
-}
-
-.cristalImg {
-  max-width: 950px;
-  width: 95%;
-  height: auto;
-  margin-top: 20vh;
-  z-index: 0;
-}
-
-.ball-content {
+  margin: 15rem;
+  padding: 5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center; 
   align-items: center;
-  align-content: center;
-  justify-content: center;
-  z-index: 0;
-  margin-top: -100vh;
-  position: relative;
+  background: rgba( 144, 19, 254, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 50%;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.text-title {
+.text-title {  
   font-family: "Creepster", cursive;
-  font-size: 4em;
-  text-align: center;
+  font-size: 3rem;    
   color: #000;
+  text-shadow: 0.1rem 0.1rem #fff;
 }
 
 .text-content {
-  font-family: "Courgette", cursive;
-  max-width: 450px;
   text-align: center;
+  font-family: "Courgette", cursive;    
   font-size: 2em;
-  color: #000;
+  color: #fff;
+  text-shadow: 0.1rem 0.1rem #000;
+  
 }
 
-.inputBall {
-  width: 100%;
+.inputBall {   
   padding: 2vh;
   border: none;
   background: rgba(255, 255, 255, 0.623);
   font-family: "Courgette", cursive;
   font-size: 1em;
-  border-radius: 2vh;
-  margin-top: 100vh;
-  position: relative;
+  border-radius: 2vh;  
 }
 
 .button {
   border-radius: 5px;
   margin-top: 1vh;
-  padding: 1em;
+  padding: 1rem;
   border: 1px solid #00bfff;
   background: #00bfff;
   color: #000;
   font-family: "Courgette", cursive;
   font-weight: bold;
   font-size: 1.3em;
+  text-shadow: 0.1rem 0.1rem #fff;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 }
@@ -87,260 +73,18 @@ body {
   box-shadow: 0 0 10px 1px #00bfff inset, 0 0 10px 1px #00bfff;
 }
 
-@media (max-width: 1280px) {
-  body {
-    height: 150vh;
-  }
-  .cristalImg {
-    max-width: 750px;
-    width: 95%;
-  }
-  .ball-content {
-    top: -10vh;
+
+@media (max-width:380px){
+  .text-title {      
+    font-size: 2rem;   
   }
 
-  .inputBall {
-    top: 10vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  body {
-    height: 200vh;
-  }
-  .cristalImg {
-    max-width: 750px;
-    width: 95%;
-  }
-  .ball-content {
-    top: -47vh;
+  .text-content {      
+    font-size: 1.5rem;    
   }
 
-  .inputBall {
-    top: 47vh;
-  }
-}
-
-@media (max-width: 912px) {
-  .ball-content {
-    top: 35vh;
-  }
-
-  .inputBall {
-    top: -35vh;
-  }
-}
-
-@media (max-width: 768px) {
-  .ball-content {
-    top: 20vh;
-  }
-
-  .inputBall {
-    top: -20vh;
-  }
-}
-
-@media (max-width: 672px) {
-  .ball-content {
-    top: 25vh;
-  }
-
-  .text-title {
-    font-size: 3em;
-  }
-
-  .text-content {
-    font-size: 1.7em;
-  }
-
-  .inputBall {
-    top: -25vh;
-  }
-}
-
-@media (max-width: 639px) {
-  .ball-content {
-    top: 28vh;
-  }
-
-  .inputBall {
-    top: -28vh;
-  }
-}
-
-@media (max-width: 609px) {
-  .ball-content {
-    top: 34vh;
-  }
-
-  .inputBall {
-    top: -34vh;
-  }
-}
-
-@media (max-width: 540px) {
-  .ball-content {
-    top: 20vh;
-  }
-
-  .text-title {
-    font-size: 2.5em;
-  }
-
-  .text-content {
-    font-size: 1.3em;
-  }
-
-  .inputBall {
-    top: -20vh;
-  }
-
-  .button {
-    margin-top: 3vh;
-    padding: 0.2em;
-  }
-}
-
-@media (max-width: 425px) {
-  .ball-content {
-    top: 15vh;
-  }
-
-  .text-title {
-    font-size: 2em;
-  }
-
-  .text-content {
-    max-width: 270px;
-    font-size: 1em;
-  }
-
-  .inputBall {
-    top: -15vh;
-  }
-
-  .button {
-    padding: 0.1em;
-  }
-}
-
-@media (max-width: 414px) {
-  .ball-content {
-    top: 50vh;
-  }
-
-  .text-title {
-    font-size: 2em;
-  }
-
-  .text-content {
-    max-width: 230px;
-    font-size: 0.8em;
-  }
-
-  .inputBall {
-    top: -50vh;
-    padding: 0.5em;
-  }
-
-  .button {
-    padding: 0.1em;
-  }
-}
-
-@media (max-width: 375px) {
-  .ball-content {
-    top: 19vh;
-  }
-
-  .text-title {
-    font-size: 2em;
-  }
-
-  .text-content {
-    max-width: 230px;
-    font-size: 0.8em;
-  }
-
-  .inputBall {
-    top: -19vh;
-    padding: 0.5em;
-  }
-
-  .button {
-    padding: 0.1em;
-  }
-}
-
-@media (max-width: 360px) {
-  .ball-content {
-    top: 32vh;
-  }
-
-  .text-title {
-    font-size: 2em;
-  }
-
-  .text-content {
-    max-width: 230px;
-    font-size: 0.8em;
-  }
-
-  .inputBall {
-    top: -32vh;
-    padding: 0.5em;
-  }
-  .button {
-    padding: 0.1em;
-  }
-}
-
-@media (max-width: 320px) {
-  .ball-content {
-    top: 35vh;
-  }
-
-  .text-title {
-    font-size: 2em;
-  }
-
-  .text-content {
-    max-width: 230px;
-    font-size: 0.7em;
-  }
-
-  .inputBall {
-    top: -35vh;
-    padding: 0.5em;
-  }
-
-  .button {
-    padding: 0.1em;
-  }
-}
-
-@media (max-width: 280px) {
-  .ball-content {
-    top: 55vh;
-  }
-
-  .text-title {
-    font-size: 1.2em;
-  }
-
-  .text-content {
-    max-width: 230px;
-    font-size: 0.7em;
-  }
-
-  .inputBall {
-    top: -55vh;
-    padding: 0.4em;
-  }
-
-  .button {
-    padding: 0.1em;
-    font-size: 0.7em;
+  .button {    
+    padding: .7rem;    
+    font-size: 1rem;    
   }
 }
